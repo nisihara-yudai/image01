@@ -1,0 +1,24 @@
+body#practice{
+  background-image: url("../img/red.jpg");
+}
+
+body#size{
+  background-image: url("../img/red.jpg");
+  background-size: 300px 100px;
+}
+
+body#repeat{
+  background-image: url("../img/red.jpg");
+  background-size: 300px 100px;
+  background-repeat: no-repeat;
+}
+
+body#position{
+  background-image: url("../img/red.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body#short{
+  background: #f2f2f2 url("../img/red.jpg") no-repeat center / 300px 100px;
+}
